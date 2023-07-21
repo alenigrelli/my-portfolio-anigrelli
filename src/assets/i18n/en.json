@@ -1,0 +1,134 @@
+{
+    "Header.Item1": "About Me",
+    "Header.Item2": "Experience",
+    "Header.Item3": "Projects",
+    "Header.Item4": "Contact",
+    "Header.cvBtn": "Download CV",
+    "Header.cvName": "alejandro_nigrelli_CV.pdf",
+    "Banner.Pretitle": "<span class=underline>Hello! My name is</span>",
+    "Banner.Description": "<span class='underline'>I have 6 years of experience</span> in developing technological solutions. I have worked with technologies such as <span class='underline'>Angular, NodeJS, ExpressJS, JavaScript, TypeScript, and Postgres.</span> My focus is on providing fast, efficient, scalable solutions while maintaining quality standards.",
+    "Banner.ActionBtn": "Contact Me",
+    "AboutMe.Title": "About Me",
+    "AboutMe.Paragraphs": [
+        "I have <span class='underline'>6 years of experience</span> in developing technological solutions. I consider myself a proactive person passionate about continuous professional growth.",
+        "I enjoy learning new technologies and staying updated with the latest trends in the field. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular, NodeJS, and ExpressJS</span>, applying best practices and development standards.",
+        "Additionally, I enjoy coordinating teams and working collaboratively with other professionals. I thrive in a team dynamic and find satisfaction in leading and coordinating teams to achieve common goals. My ability to quickly adapt to new technologies is another strength. I am excited to learn and tackle technical challenges in an ever-evolving environment.",
+        "I believe adaptability and curiosity are key to success in the current technological world.",
+        "Some of the technologies I have worked with and trained in include (but are not limited to):"
+    ],
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        {
+            "Tab": "Lazarillo",
+            "Title": "Fullstack Developer",
+            "Date": "July 2021 - Present",
+            "Description": [
+                "Fullstack Developer",
+                "Part of the development coordination team",
+                "Development and deployment of in-house projects using <span class='underline'>Postgres, Node, and Angular</span>",
+                "Task management and meeting planning with stakeholders",
+                "Utilization of <span class='underline'>agile methodologies</span>"
+            ]
+        },
+        {
+            "Tab": "Inthegra",
+            "Title": "Javascript and PL/SQL Developer",
+            "Date": "April 2021 - July 2021",
+            "Description": [
+                "Development of products for social welfare organizations using APEX",
+                "Utilization of databases through PL/SQL"
+            ]
+        },
+        {
+            "Tab": "Elinpar",
+            "Title": "Independent",
+            "Date": "November 2017 - April 2021",
+            "Description": [
+                "Fullstack Developer",
+                "Part of the technical reference team",
+                "Development and deployment of projects for municipalities (Fines Court System used by the province of Mendoza and the municipality of Godoy Cruz)",
+                "Utilization of <span class='underline'>Agile methodologies</span>",
+                "Meetings and direct interaction with the client"
+            ]
+        }
+    ],
+    "FeatureProjects.Title": "Projects I have participated in and/or currently involved in",
+    "FeatureProjects.Projects": [
+        {
+            "Title": "CROASIST",
+            "Label": "Main Project",
+            "Description": "<span class='underline'>CROASIST</span> is the beginning of my entrepreneurship, and we are currently in meetings with various stakeholders. This <span class='underline'>versatile and comprehensive</span> tool aims to streamline attendance and human resources administration, facilitating information recording, employee tracking, and document management.",
+            "imgs": [
+                "assets/images/croasist/image1.jpeg",
+                "assets/images/croasist/image2.jpeg",
+                "assets/images/croasist/image3.jpeg"
+            ],
+            "Technologies": [
+                "Angular",
+                "CSS",
+                "Angular Material",
+                "RxJS",
+                "ExpressJS",
+                "MongoDB"
+            ]
+        },
+        {
+            "Title": "Portfolio",
+            "Description": "This Angular project allows you to view a brief description of a person, their work experience, personal projects, studies, and contact information.",
+            "imgs": [
+                "assets/images/portfolio/portfolio-1.jpeg"
+            ],
+            "Technologies": [
+                "Angular",
+                "SCSS",
+                "Material"
+            ]
+        }
+    ],
+    "OtherProjects.Title": "",
+    "OtherProjects.Projects": [],
+    "Studies.Title": "Studies",
+    "Studies.Certifications": [
+        {
+            "Title": "Computer Analyst (UNC)",
+            "Description": "My education as a <span class='underline'>Computer Analyst</span> at FaMAF has provided me with a solid foundation in various aspects of computer science. I have trained in <span class='underline'>programming, systems analysis, database management</span>, and acquired skills to solve complex problems using innovative tools and techniques. I am prepared to face current and future technological challenges and make significant contributions in the field of <span class='underline'>computing</span>.",
+            "imgs": [
+                "assets/images/famaf/famaf-0.jpg",
+                "assets/images/famaf/famaf-1.jpg"
+            ],
+            "Technologies": [
+                "Angular",
+                "SCSS",
+                "Material"
+            ]
+        },
+        {
+            "Title": "Strategic Negotiation (Mundos E)",
+            "Description": "This course provided me with a focus on finding mutually beneficial solutions and achieving successful agreements in any negotiation situation.",
+            "imgs": [
+                "assets/images/mundos-e/mundos-e.png"
+            ],
+            "Technologies": [
+                "Angular",
+                "SCSS",
+                "Material"
+            ]
+        },
+        {
+            "Title": "Angular (CoderHouse)",
+            "Description": "After completing the Angular course from Coderhouse, I have gained solid skills in developing web applications with Angular. I now have the ability to create interactive and scalable applications using components, directives, and services. Additionally, I have acquired knowledge in TypeScript and can apply development best practices, thanks to the focus and training provided by Coderhouse.",
+            "imgs": [
+                "assets/images/coderhouse/angular.png"
+            ],
+            "Technologies": [
+                "Angular",
+                "SCSS",
+                "Material"
+            ]
+        }
+    ],
+    "Contact.Pretitle": "Get in Touch",
+    "Contact.Title": "",
+    "Contact.Content": "If you liked my profile and want to get in touch, you can reach me through any of the available means. Thank you for visiting my portfolio.",
+    "Contact.Btn": "Contact Me"
+}

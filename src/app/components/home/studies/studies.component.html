@@ -1,0 +1,68 @@
+<section class="section proyects" id='proyects'>
+    <div class="container">
+        <div class="section-box">
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    <span class='n-section-title'>03.</span> {{"Studies.Title" | translate}}
+                </h3>
+            </div>
+
+            <div *ngFor='let certification of "Studies.Certifications" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
+                <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2==0">
+                    <ng-container *ngFor="let img of certification.imgs">
+                        <ng-template carouselSlide [id]="certification.Title+slide+i">
+                            <div #imgContainer class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="certification.Title">
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
+                    <div class="img-feature-proyect-box">
+                        <div class="img-container" style='width: auto;'>
+                            <img class='img-feature-proyect rounded' [src]="certification.imgs[0]" [alt]="certification.imgs[0]" width='600px'>
+                        </div>
+                    </div>
+                </div>
+                <div [class.proyect-info-right]='i%2==0' [class.proyect-info-left]='i%2!=0' class="h-100" style="background-image: url('{{certification.img}}');">
+                    <div class="proyect-box">
+                        <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-proyect">{{certification.Label | translate}}</h4>
+                        <h5 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-name">{{certification.Title}}</h5>
+
+                        <div class="proyect-description-box" (click)='debug()'>
+                            <p class="mb-0" [innerHTML]="certification.Description">
+                            </p>
+                        </div>
+                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="proyect-skills">
+                            <li *ngFor='let skill of certification.Skills' class="ml-3">
+                              <span class="underline technology">{{skill}}</span>
+                            </li>
+                        </ul>
+                        <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="proyect-links">
+                            <a *ngIf="certification['ghLink']" style='color: inherit' [href]="certification['ghLink']" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                            <a *ngIf="certification['demoLink']" style='color: inherit' [href]="certification['demoLink']" target="_blank"><i class="ml-3 fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2!=0">
+                    <ng-container *ngFor="let img of certification.imgs">
+                        <ng-template carouselSlide [id]="certification.Title+slide+i">
+                            <div class='img-container'>
+                                <img class='img-feature-proyect rounded' [src]="img" [alt]="certification.Title">
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+                <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">
+                    <div class="img-feature-proyect-box">
+                        <div class="img-container" style='width: auto;'>
+                            <img class='img-feature-proyect rounded' [src]="certification.imgs[0]" [alt]="certification.imgs[0]" width='600px'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+        </div>
+    </div>
+</section>
