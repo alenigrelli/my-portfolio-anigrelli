@@ -20,10 +20,10 @@
     "Experience.Jobs": [
         {
             "Tab": "Lazarillo",
-            "Title": "Fullstack Developer",
+            "Title": "Teach Lead",
             "Date": "July 2021 - Present",
             "Description": [
-                "Fullstack Developer",
+                "Teach Lead",
                 "Part of the development coordination team",
                 "Development and deployment of in-house projects using <span class='underline'>Postgres, Node, and Angular</span>",
                 "Task management and meeting planning with stakeholders",
